@@ -1,7 +1,6 @@
-package me.carter.mcting.mcting;
+package me.carter.JuulCraft;
 
-import jdk.tools.jlink.internal.plugins.StringSharingPlugin;
-import me.carter.mcting.mcting.events.PlayerUseJuul;
+import me.carter.JuulCraft.events.PlayerUseJuul;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -15,7 +14,6 @@ import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.potion.PotionData;
 import org.bukkit.potion.PotionType;
-import org.bukkit.util.io.BukkitObjectInputStream;
 
 import java.util.ArrayList;
 

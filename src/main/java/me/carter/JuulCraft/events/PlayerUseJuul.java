@@ -1,6 +1,6 @@
-package me.carter.mcting.mcting.events;
+package me.carter.JuulCraft.events;
 
-import me.carter.mcting.mcting.JuulCraft;
+import me.carter.JuulCraft.JuulCraft;
 import org.bukkit.*;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.event.EventHandler;
@@ -27,7 +27,6 @@ public class PlayerUseJuul implements Listener {
 
             if (persistentDataContainer.get(mainClass.key, PersistentDataType.INTEGER) != null) {
                 int dur = persistentDataContainer.get(mainClass.key, PersistentDataType.INTEGER);
-                Bukkit.getServer().broadcastMessage(String.valueOf(dur));
 
                 ItemStack newItemA = e.getItem();
                 ItemMeta newMeta = newItemA.getItemMeta();
@@ -58,7 +57,6 @@ public class PlayerUseJuul implements Listener {
                     e.getPlayer().sendMessage(ChatColor.RED+"Oh No! You ran out of Juul Pods");
                 }
             } else {
-                Bukkit.getServer().broadcastMessage("adding now...?");
                 ItemStack ActualNewItem = e.getItem();
 
                 ItemMeta newItem = ActualNewItem.getItemMeta();

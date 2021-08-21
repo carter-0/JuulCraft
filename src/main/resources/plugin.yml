@@ -1,5 +1,5 @@
-name: Mcting
+name: JuulCraft
 version: ${project.version}
-main: me.carter.mcting.mcting.Mcting
+main: me.carter.JuulCraft.JuulCraft
 api-version: 1.17
 description: juuling plugin and other things
