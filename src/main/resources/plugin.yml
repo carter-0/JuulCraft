@@ -1,0 +1,5 @@
+name: Mcting
+version: ${project.version}
+main: me.carter.mcting.mcting.Mcting
+api-version: 1.17
+description: juuling plugin and other things
